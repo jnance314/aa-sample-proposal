@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aa-proposal"
+version = "0.1.0"
+description = "Source code for aa sample proposal"
+authors = ["jnance314 <125561602+jnance314@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.10.1"
+pandas = "^2.2.3"
+numpy = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
